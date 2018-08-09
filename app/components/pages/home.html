@@ -136,7 +136,8 @@
     </div>
     <br/>
     <br/>
-    <div class="container headingContainer .hidden-sm-down.hidden-xl-up">
+    <! hiding the container for screens above md-->
+    <div class="container headingContainer d-md-none">
         <h1>Contact Me</h1>
         <div class="contactContainer1">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -159,27 +160,31 @@
             </div>
         </div>
     </div>
-    <div class="container headingContainer ">
+    <! hiding the container for screens smaller than md-->
+    <div class="container headingContainer d-none d-md-block">
         <h1>Contact Me</h1>
-        <div class="contactContainer hidden-xs-down hidden-sm-down">
+        <div class="contactContainer">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                     <div class='details'><h3>India</h3></div>
                 </div>
             </div>
+            <br/>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
                     <div class='details'><h3>+91 9033446195</h3></div>
                 </div>
             </div>
+            <br/>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="box">
                     <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                     <div class='details'><h3>info@gmail.com</h3></div>
                 </div>
             </div>
+            <br/>
         </div>
     </div>
 

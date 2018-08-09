@@ -128,7 +128,7 @@
     position:relative;
     box-sizing:border-box;
     text-align:center;
-    /*background:#00171d;*/
+    margin-bottom: 10px;
     overflow:hidden;
     border-radius:4px;
     /*box-shadow:0 0 0 2px rgba(0,7,10,1);*/
