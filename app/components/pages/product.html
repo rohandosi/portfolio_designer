@@ -1,0 +1,214 @@
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        height: 1px;
+        border-top: 1px solid rgba(0,0,0,.1);
+    }
+</style>
+<div ng-controller="productCtrl">
+        <div class="container firstContainer">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="firstContainerStyle">
+                        <p class="firstHeading">Hi, I am John</p><br/>
+                        <p class="secondHeading"><em><u>Professional Industrial Designer</u></em></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+                                    <img class="img-responsive imagePerson" src="components/images/1.JPG">
+<!--
+                    <img class="img-responsive imagePerson" src="components/images/sakshi.JPG">
+-->
+
+                </div>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+        <br/>
+        <br/>
+
+        <div class="container about-me-container">
+            <hr>
+            <h1>My Work</h1>
+            <div class="about-me">
+                <p>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <hr>
+        </div>
+        <br/>
+        <br/>
+        <! hiding the container for screens above md-->
+        <div class="container headingContainer d-md-none">
+            <h1>Contact Me</h1>
+            <div class="contactContainer1">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class='details'><h3>India</h3></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class='details'><h3>+91 9033446195</h3></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <div class='details'><h3>info@gmail.com</h3></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <! hiding the container for screens smaller than md-->
+        <div class="container headingContainer d-none d-md-block">
+            <h1>Contact Me</h1>
+            <div class="contactContainer">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class='details'><h3>India</h3></div>
+                    </div>
+                </div>
+                <br/>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class='details'><h3>+91 9033446195</h3></div>
+                    </div>
+                </div>
+                <br/>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <div class='details'><h3>info@gmail.com</h3></div>
+                    </div>
+                </div>
+                <br/>
+            </div>
+        </div>
+    <br/>
+    <br/>
+
+    <div class="container skill-container">
+        <hr>
+        <h1>Skills</h1>
+        <br/>
+        <p>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <br/>
+        <div class="row">
+            <div class="col-xs-3 class-sm-3 col-md-3 col-lg-3 skill-circle">
+                <div class="col-md-6">
+                    <percent-circle percent="20"></percent-circle>
+                </div>
+            </div>
+            <div class="col-xs-3 class-sm-3 col-md-3 class-sm-3 col-lg-3 skill-circle">
+                <div class="col-md-6">
+                    <percent-circle percent="30"></percent-circle>
+                </div>
+            </div>
+            <div class="col-xs-3 class-sm-3 col-md-3 class-sm-3 col-lg-3 skill-circle">
+                <div class="col-md-6">
+                    <percent-circle percent="40"></percent-circle>
+                </div>
+            </div>
+            <div class="col-xs-3 class-sm-3 col-md-3 class-sm-3 col-lg-3 skill-circle">
+                <div class="col-md-6">
+                    <percent-circle percent="50"></percent-circle>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br/>
+    <div style="clear: both"></div>
+
+    <div class="container cards-container">
+        <div class="row">
+            <div class="example-2 card col-md-4">
+                <div class="wrapper">
+                    <div class="header">
+                        <div class="date">
+                            <span class="day">12</span>
+                            <span class="month">Aug</span>
+                            <span class="year">2016</span>
+                        </div>
+                        <!--<ul class="menu-content">
+                            <li>
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                            </li>
+                            <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+                            <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+                        </ul>-->
+                    </div>
+                    <div class="data">
+                        <div class="content">
+                            <span class="author">Jane Doe</span>
+                            <h1 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+                            <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+                            <a href="#" class="button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="example-2 card col-md-4">
+                <div class="wrapper">
+                    <div class="header">
+                        <div class="date">
+                            <span class="day">12</span>
+                            <span class="month">Aug</span>
+                            <span class="year">2016</span>
+                        </div>
+                        <ul class="menu-content">
+                            <li>
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                            </li>
+                            <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+                            <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="data">
+                        <div class="content">
+                            <span class="author">Jane Doe</span>
+                            <h1 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+                            <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+                            <a href="#" class="button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="example-2 card col-md-4">
+                <div class="wrapper">
+                    <div class="header">
+                        <div class="date">
+                            <span class="day">12</span>
+                            <span class="month">Aug</span>
+                            <span class="year">2016</span>
+                        </div>
+                        <ul class="menu-content">
+                            <li>
+                                <a href="#" class="fa fa-bookmark-o"></a>
+                            </li>
+                            <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+                            <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="data">
+                        <div class="content">
+                            <span class="author">Jane Doe</span>
+                            <h1 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+                            <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+                            <a href="#" class="button">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>    </div>
+
+</div>
