@@ -8,6 +8,11 @@ angular.module('myApp.home', ['ngRoute'])
             controller: 'homeCtrl'
         });
     }])
-    .controller('homeCtrl', [function() {
+    .controller('homeCtrl', ['$scope', '$window', '$location', function($scope, window, location) {
         console.log('home ctrl called');
-    }]);
+
+        $scope.openProject = function () {
+           location.path('/product');
+        }
+    }
+    ]);
