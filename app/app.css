@@ -444,7 +444,7 @@ a {
     font-family: "slick";
     font-size: 20px;
     line-height: 1;
-    color: white;
+    color: black;
     opacity: 0.85;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -533,7 +533,7 @@ a {
 }
 
 .blue, html {
-    background: #109E86;
+    background: #f4f7fc;
     color: #fff;
 }
 .blue h3, html h3 {
